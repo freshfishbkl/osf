@@ -1,0 +1,160 @@
+
+*{
+   margin: 0%;
+   padding: 0%;
+}
+body{
+ background-image:url('../images/bhatkal3.gif');
+ background-size :100% 100vh;
+}
+
+.maindiv{
+    width: 100%;
+    height: 100vh;
+    
+}
+.address{
+    width:100%;
+    height: 70vh;
+   
+}
+.info{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+  
+}
+.infobox{
+    width: 50%;
+    height: 40vh;
+    
+    padding-left: 5%;
+
+}
+.email{
+    width: 50%;
+    height: 40vh;
+}
+.thankyou{
+    width: 100%;
+    height: 20vh;
+    color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    padding-left: 55%;
+    
+    
+}
+.social{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+
+}
+.email{
+    width: 50%;
+    height: 40vh;
+    font-size: 2vh;
+
+}
+.mail{
+    padding-left: 10%;
+    font-size: 3vh;
+}
+.ininfo{
+    padding-left: 10%;
+    font-size: 3vh;
+}
+.number{
+    padding-left: 10%;
+    font-size: 3vh;
+}
+.h1{
+    font-size: 4vh;
+}
+.contact{
+    font-size: 4vh;
+
+}
+.animated infinite heartbeat{
+   height: 10vh;
+    font-size: 7vh;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+.animated infinite heartBeat{
+   
+   height: 10vh;
+   font-size: 10vh;
+}
+.animated infinite heartbeat {
+   
+   height: 10vh;
+   font-size: 7vh;
+}
+.animated infinite heartbeat{
+   
+   height: 10vh;
+   font-size: 7vh;
+}
+.animated infinite heartbeat{
+   
+   height: 10vh;
+   font-size: 7vh;
+}
+.animated infinite  bounce{
+   
+   height: 10vh;
+   font-size: 7vh;
+}
+.animated infinite bounce{
+   
+   height: 10vh;
+   font-size: 7vh;
+}
+.animated infinite bounce{
+   
+   height: 10vh;
+   font-size: 7vh;
+}
+.logo{
+   width: 5%;
+   height: 30vh;
+}
+.logoname{
+   width: 95%;
+   height: 30vh;
+   padding-top: 1%;
+}
+@media (max-width:768px){
+   .info{
+       display: flex;
+       flex-direction: column;
+   }
+   .email{
+       padding-left: 5%;
+       padding-top: 5%;
+   }
+   body{
+       background-image:url('../images/bhatkal4.jpg');
+   }
+   .h1{
+       font-size: 5vh;
+   }
+   .logoname{
+       font-size: 15px;
+       padding-top:  5%;
+       margin-left: 10%;
+   }
+   .thankyou{
+       margin-left: 20%;
+       padding-left: 0%;
+   }
+}
+
+
